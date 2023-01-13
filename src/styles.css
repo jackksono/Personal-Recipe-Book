@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Kanit";
+    color: black;
+}
+
+.navbar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.navbar h1 {
+    color: rgb(0, 0, 0);
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+.navbar a:hover {
+    color: aquamarine;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.loginForm, .signupForm {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.recipePreview{
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+}
+
+.recipePreview:hover {
+    box-shadow: 1px 3px 5px black;
+}
+
+.recipePreview h2 {
+    font-size: 30px;
+    color: rebeccapurple;
+    margin-bottom: 5px;
+}
+
+
+button {
+    padding: px;
+}
+
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+
+}
+body {
+    background-color: rgb(198, 198, 198);
+    
+    position: relative;
+}
+
+
+#signup {
+    font-size: 15px;
+}
+#login {
+    font-size: medium;
+}
+h1 {
+font-size: 60px;
+font-weight: bold;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.loginscreen {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 100x;
+}
+
+.recipe-details {
+    background: rgb(224, 245, 245);
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px black;
+}
+
+.recipe-details h4 {
+    margin: 0 0 10px 10;
+    font-size: 1.2em;
+    color: var(--primary);
+}
+
+.recipe-details p {
+    margin: 0;
+    font-size: 0.9em;
+    color: brown;
+}
+
+.recipe-details span {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    background: white;
+    padding: 10px;
+   
+    color: rgb(0, 0, 0);
+}
+
+label, input {
+    display: block;
+}
+
+input{
+    padding: 10x;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 75%;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form button {
+    background: var(--primary);
+    border: 0;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: aquamarine;
+}
